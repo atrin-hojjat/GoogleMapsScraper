@@ -30,16 +30,12 @@ public class Keyword {
 	private final String name;
 
 	// private static final String raw_url =
-	// "https://maps.googleapis.com/maps/api/place/nearbysearch/json?name=%s&location=%s&radius=%s&key=AIzaSyAAFXsoqBB01OnruUYmWZ6HhsE16UpLChI";
+	// "https://maps.googleapis.com/maps/api/place/nearbysearch/json?name=%s&location=%s&radius=%s&key=";
 	// private static final String raw_url =
-	// "https://maps.googleapis.com/maps/api/place/nearbysearch/json?name=%s&location=%s&radius=%s&key=AIzaSyCpA6UguHRWNxHDMKQDc7Ff-iR0XCA2VTI";
+	// "https://maps.googleapis.com/maps/api/place/nearbysearch/json?name=%s&location=%s&radius=%s&key=";
 	private static final String raw_url_keyword = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?name=%s&location=%s&radius=%s&key=%s";
 	private static final String raw_url_type = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?types=%s&location=%s&radius=%s&key=%s";
-	/*
-	 * Keys : AIzaSyAAFXsoqBB01OnruUYmWZ6HhsE16UpLChI
-	 * AIzaSyCpA6UguHRWNxHDMKQDc7Ff-iR0XCA2VTI
-	 * AIzaSyCjaTxBRbNqya8EkGbbLZ04KlBhCIGV6cw
-	 */
+
 	private final int max_count;
 	private JProgressBar progreass;
 	private final GoogleAutoSearch.Search_Type type;
